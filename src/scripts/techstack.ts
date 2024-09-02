@@ -18,8 +18,8 @@ data.sort((a, b) => a.subcategory.localeCompare(b.subcategory));
 const markdownTable = `
 # Professional IT Stack
 
-|Type             |Subcategory        | Tool/Service            |Usage / Description                |
-|:-               |:-                 |:-                       |-:                                 |
+|Type |Subcategory |Tool/Service  |Usage / Description|
+|:-   |:-          |:-            |-:                 |
 ${data.map(row => `|${row.type}|${row.subcategory}|${row.toolService}|${row.description}|`).join('\n')}
 `;
 

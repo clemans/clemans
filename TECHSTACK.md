@@ -1,7 +1,7 @@
 # Professional IT Stack
 
-|Type             |Subcategory        | Tool/Service            |Usage / Description                |
-|:-               |:-                 |:-                       |-:                                 |
+|Type |Subcategory |Tool/Service  |Usage / Description|
+|:-   |:-          |:-            |-:                 |
 |Cloud|Compute|EC2|Virtual Servers|
 |Cloud|Compute|ECS|Container Orchestration|
 |Cloud|Compute|Lambda|Serverless Compute|
