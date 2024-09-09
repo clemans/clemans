@@ -12,7 +12,7 @@ const data = JSON.parse(rawData) as Array<{
 }>;
 
 // Sort by Subcategory
-data.sort((a, b) => a.subcategory.localeCompare(b.subcategory));
+data.sort((a, b) => a.type.localeCompare(b.type));
 
 // Convert to Markdown table format
 const markdownTable = `
